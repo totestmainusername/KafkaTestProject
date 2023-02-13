@@ -1,0 +1,14 @@
+{"namespace": "com.scardamone.kafka.kafka.test.project.model.avro",
+  "type": "record",
+  "name": "SensorAvro",
+  "fields": [
+    {"name": "ASSET_ID", "type": "string"},
+    {"name": "SENSOR_TYPE",  "type": "string" },
+    {"name": "DISPLACEMENT_TRANSDUCER", "type": "string"},
+    {"name": "TIME", "type":"string"},
+    {"name": "ID", "type":"string"},
+    {"name": "DISPLACEMENT", "type": "float"},
+    {"name":  "BRANCH_ID", "type" : "string"},
+    {"name": "TENANT_ID", "type":"string"}
+  ]
+}
